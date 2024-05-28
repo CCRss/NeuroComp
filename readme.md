@@ -28,6 +28,14 @@ Neuralink is looking for new approaches to solve this problem and exceptional en
 2. Your work will be evaluated based on the compression ratio achieved on another set of electrode recordings. Bonus points for optimizing latency and power efficiency.
 3. Submit the solution with source code and a build script, which should at least build on Linux.
 
+## My Attempts
+
+In the `runs` directory, you will find my various attempts at solving this challenge. Each attempt explores different methods and optimizations to achieve the desired compression ratio while meeting the real-time and power consumption constraints.
+
+## More Information
+
+For detailed information on the competition and to download the input data, please visit the official [Neuralink Compression Challenge](https://content.neuralink.com/compression-challenge/README.html) page.
+
 ## Example Output
 
 ```sh
@@ -35,3 +43,4 @@ All recordings successfully compressed.
 Original size (bytes): 146800526
 Compressed size (bytes): 55218715
 Compression ratio: 2.65
+```
